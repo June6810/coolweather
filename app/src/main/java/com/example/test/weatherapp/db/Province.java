@@ -15,6 +15,10 @@ public class Province extends DataSupport{
         this.id = id;
     }
 
+    public int getId(){
+        return id;
+    }
+
     public String getProvinceName() {
         return provinceName;
     }
